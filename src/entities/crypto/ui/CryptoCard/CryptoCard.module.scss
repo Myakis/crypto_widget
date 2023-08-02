@@ -1,0 +1,32 @@
+.root {
+  max-width: 220px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: var(--background-widget);
+
+
+  padding: 10px;
+  border: 1px solid #eee;
+  border-bottom: none;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+  &_size_s {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  &:hover {
+    text-decoration: none;
+    filter: none;
+  }
+}
+
+.span {
+  font-size: 12px;
+}

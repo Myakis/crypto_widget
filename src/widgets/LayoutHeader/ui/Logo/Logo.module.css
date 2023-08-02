@@ -1,0 +1,22 @@
+@import url("/src/shared/breakpoints.css");
+
+.root {
+  width: 180px;
+  height: 61px;
+  background-image: url('https://widgetmag.com/wp-content/uploads/2020/12/logo-black-widget-alt-red-01.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+
+  @media (--xs-viewport) {
+    width: 24px;
+    height: 24px;
+    background: none;
+  }
+}
+
+.root::before {
+  @media (--xs-viewport) {
+    content: '⚛️';
+  }
+}

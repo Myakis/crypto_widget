@@ -1,0 +1,28 @@
+
+.root {
+  position: fixed;
+  left: 1rem;
+  bottom: 2rem;
+  padding: 10px;
+}
+
+.button{
+  width: 220px;
+  background-color: var(--background-widget);
+  outline: none;
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.button:hover{
+  background-color: rgba($color: (var(--background-widget)), $alpha: 0.8);
+}
+
+.buttonTransform{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
