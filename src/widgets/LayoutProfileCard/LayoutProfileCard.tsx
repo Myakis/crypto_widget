@@ -1,6 +1,7 @@
 import { type FC } from 'react'
 import { Link } from 'react-router-dom'
-import css from './LayoutProfileCard.module.css'
+import { Button } from '@/shared/ui'
+import css from './LayoutProfileCard.module.scss'
 
 type TWidget = {
   isWidget?: boolean
@@ -9,10 +10,8 @@ type TWidget = {
 export const LayoutProfileCard: FC<TWidget> = ({ isWidget }) => {
   return (
     <div className={css.root}>
-      <Link to={isWidget ? '/withoutWidget' : '/'}>
-        <button>
-          {!isWidget ? 'На страницу с виджетом' : 'На страницу без с виджета'}
-        </button>
+      <Link to={isWidget ? '/test' : '/'}>
+        <Button>{isWidget ? 'На тестовую страницу' : 'На главную'}</Button>
       </Link>
     </div>
   )
