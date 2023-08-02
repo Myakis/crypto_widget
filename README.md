@@ -18,7 +18,8 @@
 2.
 - Добавить в index.html скрипт подключения виджета для всего сайта (Сейчас именно это используется )
 
-![Превьюшка](https://github.com/Myakis/crypto_widget/public/images/preview.png)
+![Превьюшка](https://github.com/Myakis/crypto_widget/raw/master/public/images/preview.png)
+
 
 ## Запуск проекта 
 
