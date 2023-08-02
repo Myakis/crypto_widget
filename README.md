@@ -1,18 +1,18 @@
 # Crypto Widget with Feature-Sliced Design
 
 
-
-
 - React, Redux Toolkit, React Hook Form, Zod
 - Vite, TypeScript, Postcss
 - Feature Sliced Design
 
 
-## About project
+## О проекте
 
-Тестовое задание. Крипто виджет. Гибкое переиспользуемая вставки виджета на любую страницу. Достаточно роутер страницы добавить в обертку layoutWithWidget. См. appRouter.tsx
+Тестовое задание. Крипто виджет. Гибкое переиспользуемая вставка виджета на любую страницу
+- Для прикрепления виджета на любую страницу необходимо прокинуть в роут новую страницу в обертке `layoutWithWidget`
+- см. файл `src/app/appRouter.tsx`
 
-## Running locally
+## Запуск проекта 
 
 1. Install dependencies
 
