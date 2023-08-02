@@ -10,7 +10,7 @@ export const appRouter = () =>
       errorElement: <div>Ошибка</div>,
       children: [
         {
-          path: '/withoutWidget',
+          path: '/test',
           element: (
             <>
               <h1>Тут могла быть ваша реклама))</h1>

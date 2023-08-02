@@ -1,4 +1,4 @@
-import css from './MainPromo.module.css'
+import css from './MainPromo.module.scss'
 
 export function MainPromo() {
   return (
